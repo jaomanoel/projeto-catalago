@@ -1,8 +1,7 @@
-import {React, useState} from "react";
-import Axios from "axios";
-import { Link } from "react-router-dom";
+import React, {useEffect, useState} from "react";
 import Axios from 'axios';
-import Main from "./Main";
+import { Link } from "react-router-dom";
+import Main from '../../components/Main';
 
 const Header = () => {
     const [search, setSearch] = useState({
