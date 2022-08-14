@@ -56,7 +56,7 @@ body{
     justify-content: center;
   }
   
-  header .header-nav a{
+  header .header-nav .nav-link{
     font-size: 1.2rem;
     color: black;
     margin-right: 3rem;
@@ -122,7 +122,7 @@ body{
     width: 75%;
   }
   
-  header .header-nav a{
+  header .header-nav .nav-link {
     position: absolute;
     height: 1px;
     width: 1px;
@@ -198,13 +198,13 @@ body{
     border-bottom: 1px solid black;
   }
 
-  header .navResponsive .menu a{
+  header .navResponsive .menu .nav-link{
     font-size: 16px;
     padding: 10px;
     color: black;
   }
 
-  header .navResponsive .menu a:hover{
+  header .navResponsive .menu .nav-link:hover{
     color: blue;
   }
 

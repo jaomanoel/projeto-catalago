@@ -41,8 +41,8 @@ const Home = () =>{
 
                     <div className="header-nav">
                         <div>
-                            <Link to="/cadastrar">CADASTRAR ANUNCIO</Link>
-                            <Link to="/">EXIBIR ANUNCIOS</Link>
+                            <Link className="nav-link" to="/cadastrar">CADASTRAR ANUNCIO</Link>
+                            <Link className="nav-link" to="/">EXIBIR ANUNCIOS</Link>
                         </div>
 
                         <div>
@@ -68,10 +68,10 @@ const Home = () =>{
                         <div className="menu">
                             <ul>
                                 <li>
-                                    <a href="/#/cadastrar">CADASTRAR ANUNCIO</a>
+                                    <Link className="nav-link" to="/cadastrar">CADASTRAR ANUNCIO</Link>
                                 </li>
                                 <li>
-                                    <a href="/">EXIBIR ANUNCIOS</a>
+                                    <Link className="nav-link" to="/">EXIBIR ANUNCIOS</Link>
                                 </li>
                             </ul>
                         </div>
