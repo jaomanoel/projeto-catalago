@@ -84,11 +84,7 @@ const Cadastrar = () => {
                     )
                 })}
 
-                {typeof listSearch === "undefined" && listSearch.map(() => {
-                    return (
-                        <CadastrarPerguntas />
-                    )
-                })}
+                <CadastrarPerguntas />
             </main>
 
             <footer>
