@@ -25,7 +25,7 @@ const Cadastrar = () => {
 
     return(
         <div className="Cadastrar">
-            <div>
+            <header>
                 <div>
                     <h1>LOGO</h1>
                 </div>
@@ -67,23 +67,9 @@ const Cadastrar = () => {
                         </ul>
                     </div>
                 </div>
-            </div>
+            </header>
 
             <main>
-                { typeof listSearch !== "undefined" && listSearch.map((val) => {
-                    return (
-                        <Main 
-                            key={val.id}
-                            listSearch={listSearch}
-                            setListSearch={setListSearch}
-                            id={val.id}
-                            title={val.titulo}
-                            category={val.categoria}
-                            content={val.assunto}
-                        />
-                    )
-                })}
-
                 <CadastrarPerguntas />
             </main>
 
