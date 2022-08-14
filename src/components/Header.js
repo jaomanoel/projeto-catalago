@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from "react";
 import Axios from 'axios';
 import { Link } from "react-router-dom";
-import Main from '../../components/Main';
+import Main from './Main';
 
 const Header = () => {
     const [search, setSearch] = useState({
@@ -68,7 +68,7 @@ const Header = () => {
                 </div>
             </div>
 
-            {typeof listSearch === "undefined" &&  typeof listSearch !== "undefined" && listSearch.map((val) => {
+            {typeof listSearch !== "undefined" && listSearch.map((val) => {
                 return (
                     <Main 
                         key={val.id}
