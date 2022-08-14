@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/projeto-catalago/static/css/main.d7d5ffca.css",
-    "main.js": "/projeto-catalago/static/js/main.b31ed7f0.js",
+    "main.js": "/projeto-catalago/static/js/main.62c451b0.js",
     "static/js/787.47d4b9ca.chunk.js": "/projeto-catalago/static/js/787.47d4b9ca.chunk.js",
     "index.html": "/projeto-catalago/index.html",
     "main.d7d5ffca.css.map": "/projeto-catalago/static/css/main.d7d5ffca.css.map",
-    "main.b31ed7f0.js.map": "/projeto-catalago/static/js/main.b31ed7f0.js.map",
+    "main.62c451b0.js.map": "/projeto-catalago/static/js/main.62c451b0.js.map",
     "787.47d4b9ca.chunk.js.map": "/projeto-catalago/static/js/787.47d4b9ca.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d7d5ffca.css",
-    "static/js/main.b31ed7f0.js"
+    "static/js/main.62c451b0.js"
   ]
 }
