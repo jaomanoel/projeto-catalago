@@ -40,8 +40,8 @@ const Home = () =>{
 
                     <div className="header-nav">
                         <div>
-                            <a to="/cadastrar">CADASTRAR ANUNCIO</a>
-                            <a to="/">EXIBIR ANUNCIOS</a>
+                            <a href="/cadastrar">CADASTRAR ANUNCIO</a>
+                            <a href="/">EXIBIR ANUNCIOS</a>
                         </div>
 
                         <div>
@@ -67,10 +67,10 @@ const Home = () =>{
                         <div className="menu">
                             <ul>
                                 <li>
-                                    <a href="projeto-catalago/cadastrar">CADASTRAR ANUNCIO</a>
+                                    <a href="/cadastrar">CADASTRAR ANUNCIO</a>
                                 </li>
                                 <li>
-                                    <a href="projeto-catalago/">EXIBIR ANUNCIOS</a>
+                                    <a href="/">EXIBIR ANUNCIOS</a>
                                 </li>
                             </ul>
                         </div>
