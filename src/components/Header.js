@@ -1,5 +1,6 @@
 import {React, useState} from "react";
 import Axios from "axios";
+import { Link } from "react-router-dom";
 import Main from "./Main";
 
 const Header = () => {
@@ -29,8 +30,8 @@ const Header = () => {
 
             <div className="header-nav">
                 <div>
-                    <a href="https://jaomanoel.github.io/projeto-catalago/#/cadastrar">CADASTRAR ANUNCIO</a>
-                    <a href="projeto-catalago/#/">EXIBIR ANUNCIOS</a>
+                    <Link className="nav-link" to="/cadastrar">CADASTRAR ANUNCIO</Link>
+                    <Link className="nav-link" to="/">EXIBIR ANUNCIOS</Link>
                 </div>
 
                 <div>
