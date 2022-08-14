@@ -6,9 +6,9 @@ import Home from "./pages/home/Home";
 
 function App() {
   return (
-    <HashRouter className="App">
+    <BrowserRouter className="App">
       <Routes></Routes>
-    </HashRouter>
+    </BrowserRouter>
   );
 }
 
