@@ -5,11 +5,11 @@ import Home from "./pages/home/Home";
 export default () => {
     return(
         <Switch>
-            <Route exact path='projeto-catalago/'>
+            <Route exact path='/'>
                 <Home />
             </Route>
 
-            <Route exact path='projeto-catalago/cadastrar'>
+            <Route path='/cadastrar'>
                 <Cadastrar />
             </Route>
         </Switch>

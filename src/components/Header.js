@@ -29,8 +29,8 @@ const Header = () => {
 
             <div className="header-nav">
                 <div>
-                <a href="projeto-catalago/cadastrar">CADASTRAR ANUNCIO</a>
-                <a href="projeto-catalago/">EXIBIR ANUNCIOS</a>
+                    <a link to="/cadastrar">CADASTRAR ANUNCIO</a>
+                    <a to="/">EXIBIR ANUNCIOS</a>
                 </div>
 
                 <div>
