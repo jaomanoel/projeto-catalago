@@ -40,7 +40,7 @@ const Home = () =>{
 
                     <div className="header-nav">
                         <div>
-                            <a href="/cadastrar">CADASTRAR ANUNCIO</a>
+                            <a href="https://jaomanoel.github.io/projeto-catalago/#/cadastrar">CADASTRAR ANUNCIO</a>
                             <a href="/">EXIBIR ANUNCIOS</a>
                         </div>
 
@@ -67,7 +67,7 @@ const Home = () =>{
                         <div className="menu">
                             <ul>
                                 <li>
-                                    <a href="/cadastrar">CADASTRAR ANUNCIO</a>
+                                    <a href="/#/cadastrar">CADASTRAR ANUNCIO</a>
                                 </li>
                                 <li>
                                     <a href="/">EXIBIR ANUNCIOS</a>
