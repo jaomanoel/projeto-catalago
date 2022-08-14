@@ -1,5 +1,6 @@
 import React, {useEffect, useState} from "react";
 import Axios from 'axios';
+import { Link } from "react-router-dom";
 import Main from '../../components/Main';
 
 const Home = () =>{
@@ -40,8 +41,8 @@ const Home = () =>{
 
                     <div className="header-nav">
                         <div>
-                            <a href="https://jaomanoel.github.io/projeto-catalago/#/cadastrar">CADASTRAR ANUNCIO</a>
-                            <a href="/">EXIBIR ANUNCIOS</a>
+                            <Link to="/cadastrar">CADASTRAR ANUNCIO</Link>
+                            <Link to="/">EXIBIR ANUNCIOS</Link>
                         </div>
 
                         <div>
