@@ -9,7 +9,7 @@ export default () => {
                 <Home />
             </Route>
 
-            <Route path='/cadastrar'>
+            <Route exact path='/cadastrar'>
                 <Cadastrar />
             </Route>
         </Switch>
