@@ -29,7 +29,7 @@ const Header = () => {
 
             <div className="header-nav">
                 <div>
-                    <a link to="/cadastrar">CADASTRAR ANUNCIO</a>
+                    <a to="/cadastrar">CADASTRAR ANUNCIO</a>
                     <a to="/">EXIBIR ANUNCIOS</a>
                 </div>
 
