@@ -1,7 +1,25 @@
 import Header from '../../components/Header';
+import { Link } from 'react-router-dom';
 import CadastrarPerguntas from '../../components/CadastrarPerguntas';
 
 const Cadastrar = () => {
+    const [search, setSearch] = useState({
+        pesquisa: ""
+    })
+    const [listSearch, setListSearch] = useState()
+
+    const valueInput = (e) => setSearch({...search, [e.target.name]: e.target.value})
+
+    const handleSearch = (e) => {
+        e.preventDefault();
+        
+        Axios.get("https://quiet-crag-18542.herokuapp.com/pesquisa/" + search.pesquisa
+        ).then((response) => {
+            setListSearch(response.data)
+        }
+        ).catch((response) => {console.log(response)})
+    }
+
     return(
         <div className="Cadastrar">
             <div>
@@ -49,7 +67,25 @@ const Cadastrar = () => {
             </div>
 
             <main>
-                <CadastrarPerguntas />
+                { typeof listSearch !== "undefined" && listSearch.map((val) => {
+                    return (
+                        <Main 
+                            key={val.id}
+                            listSearch={listSearch}
+                            setListSearch={setListSearch}
+                            id={val.id}
+                            title={val.titulo}
+                            category={val.categoria}
+                            content={val.assunto}
+                        />
+                    )
+                })}
+
+                {typeof listSearch === "undefined" && listSearch.map(() => {
+                    return (
+                        <CadastrarPerguntas />
+                    )
+                })}
             </main>
 
             <footer>
