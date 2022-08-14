@@ -1,5 +1,8 @@
 import Header from '../../components/Header';
 import { Link } from 'react-router-dom';
+import { Axios } from 'axios';
+import { useState } from 'react';
+import Main from '../../components/Main';
 import CadastrarPerguntas from '../../components/CadastrarPerguntas';
 
 const Cadastrar = () => {
