@@ -34,6 +34,13 @@ body{
 
 /* Header */
 
+header .header-cadastrar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
 @media screen and (min-width: 870px ) {
   header{
     display: flex;
@@ -57,9 +64,13 @@ body{
   }
   
   header .header-nav .nav-link{
-    font-size: 1.2rem;
+    font-size: 1.6rem;
     color: black;
     margin-right: 3rem;
+  }
+
+  header .header-nav .nav-link:hover{
+    color: blue;
   }
   
   header .header-nav form{
@@ -107,7 +118,7 @@ body{
     padding: 1.5rem 0;
     background-color: lightgray;
   }
-  
+
   header > div{
     display: flex;
     align-items: center;
@@ -189,18 +200,25 @@ body{
   }
 
   header .navResponsive .menu ul{
+    display: flex;
     list-style-type: none;
     text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   header .navResponsive .menu ul li{
     padding: 10px 0px;
+    width: 100%;
     border-bottom: 1px solid black;
   }
 
   header .navResponsive .menu .nav-link{
+    width: 167px;
+    height: 20px;
     font-size: 16px;
-    padding: 10px;
+    padding: 0px;
     color: black;
   }
 

@@ -1,6 +1,7 @@
 import Header from '../../components/Header';
 import CadastrarPerguntas from '../../components/CadastrarPerguntas';
 
+import '../../css/Cadastrar.css';
 const Cadastrar = () => {
     return(
         <div className="Cadastrar">
