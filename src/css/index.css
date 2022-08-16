@@ -41,7 +41,7 @@ header .header-cadastrar{
   width: 100%;
 }
 
-@media screen and (min-width: 870px ) {
+@media screen and (min-width: 900px ) {
   header{
     display: flex;
     align-items: center;
@@ -110,7 +110,7 @@ header .header-cadastrar{
 }
 
 
-@media screen and (max-width: 870px) {
+@media screen and (max-width: 900px) {
   header{
     display: flex;
     align-items: center;
@@ -129,7 +129,7 @@ header .header-cadastrar{
   header .header-nav{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: right;
     width: 75%;
   }
   
@@ -169,7 +169,7 @@ header .header-cadastrar{
   }
 
   header .navResponsive{
-    margin-left: -80px;
+    margin-left: 5px;
   }
 
   header .navResponsive label{
@@ -265,11 +265,12 @@ header .header-cadastrar{
 
   
 }
+
 /* Footer */
 
 footer{
   position: fixed;
-  top: 93%;
+  top: 90%;
   text-align: center;
   padding: 1.5rem 0;
   background-color: lightgray;

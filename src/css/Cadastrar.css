@@ -42,7 +42,7 @@
 
 
 @media screen and (max-width: 768px){
-    main{
+    .Cadastrar main{
         max-width: 100vw !important;
     }
     

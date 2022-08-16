@@ -55,25 +55,25 @@ const Home = () =>{
                                 </button>
                             </form>
                         </div>
-                    </div>
-                    <div className="navResponsive">
-                        <input type="checkbox" id="checkbox-menu"/>
+                        <div className="navResponsive">
+                            <input type="checkbox" id="checkbox-menu"/>
 
-                        <label htmlFor="checkbox-menu">
-                            <div id = "linha1"></div>
-                            <div id = "linha2"></div>
-                            <div id = "linha3"></div>
-                        </label>
+                            <label htmlFor="checkbox-menu">
+                                <div id = "linha1"></div>
+                                <div id = "linha2"></div>
+                                <div id = "linha3"></div>
+                            </label>
 
-                        <div className="menu">
-                            <ul>
-                                <li>
-                                    <Link className="nav-link" to="/cadastrar">CADASTRAR ANUNCIO</Link>
-                                </li>
-                                <li>
-                                    <Link className="nav-link" to="/">EXIBIR ANUNCIOS</Link>
-                                </li>
-                            </ul>
+                            <div className="menu">
+                                <ul>
+                                    <li>
+                                        <Link className="nav-link" to="/cadastrar">CADASTRAR ANUNCIO</Link>
+                                    </li>
+                                    <li>
+                                        <Link className="nav-link" to="/">EXIBIR ANUNCIOS</Link>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -110,7 +110,7 @@ const Home = () =>{
             </main>
 
             <footer>
-                <h2>DESENVOLVIDO POR JOAO MANOEL</h2>
+                <h2>DESENVOLVIDO POR JOÃO MANOEL</h2>
             </footer>
         </>
     );
