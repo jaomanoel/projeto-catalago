@@ -10,7 +10,6 @@ const Home = () =>{
     })
     const [listSearch, setListSearch] = useState()
 
-    console.log(listSearch)
     useEffect(() => {
         Axios.get("https://server-devmidia.onrender.com/").then((response) => { 
             setListGames(response.data); 
