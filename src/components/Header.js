@@ -14,7 +14,6 @@ const Header = () => {
                         <Link className="nav-link" to="/cadastrar">CADASTRAR ANUNCIO</Link>
                         <Link className="nav-link" to="/">EXIBIR ANUNCIOS</Link>
                     </div>
-
                 </div>
                 
                 <div className="navResponsive">
