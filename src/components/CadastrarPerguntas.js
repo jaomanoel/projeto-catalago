@@ -14,7 +14,7 @@ const  CadastrarPerguntas = () => {
     const registerAnuncio = (e) => {
         e.preventDefault();
 
-        axios.post("https://quiet-crag-18542.herokuapp.com/register", {
+        axios.post("https://server-devmidia.onrender.com/register", {
             title: anuncio.title,
             category: anuncio.category,
             content: anuncio.content

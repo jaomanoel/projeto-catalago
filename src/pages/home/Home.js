@@ -12,7 +12,7 @@ const Home = () =>{
 
     console.log(listSearch)
     useEffect(() => {
-        Axios.get("https://quiet-crag-18542.herokuapp.com/").then((response) => { 
+        Axios.get("https://server-devmidia.onrender.com/").then((response) => { 
             setListGames(response.data); 
         });
     }, []);
@@ -22,7 +22,7 @@ const Home = () =>{
     const handleSearch = (e) => {
         e.preventDefault();
         
-        Axios.get("https://quiet-crag-18542.herokuapp.com/pesquisa/" + search.pesquisa
+        Axios.get("https://server-devmidia.onrender.com/pesquisa/" + search.pesquisa
         ).then((response) => {
             setListSearch(response.data)
         }
